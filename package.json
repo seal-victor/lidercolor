@@ -1,5 +1,5 @@
 {
-  "name": "lidercolor.ru",
+  "name": "lidercolor",
   "devDependencies": {
     "autoprefixer": "9.5.x",
     "browser-sync": "2.26.x",
@@ -18,5 +18,9 @@
     "test": "nom run editorconfig && npm run stylelint",
     "build": "gulp css",
     "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seal-victor/lidercolor/"
   }
 }
