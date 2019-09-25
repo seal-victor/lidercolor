@@ -1,6 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: @color-gray;
+  font-family: @font-family;
+  font-size: 12px;
+  line-height: @line-height;
+}
+
 .container {
-  width: 924px;
+  width: 650px;
   margin: auto;
+
+  @media @viewport-tablet {
+    width: 580px;
+  }
+
+  @media @viewport-desktop {
+    width: 1050px;
+  }
 }
 
 .headline {
@@ -9,5 +28,13 @@
 
 
 .visually-hidden {
+  position: absolute;
 
+  clip: rect(0 0 0 0);
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
+
+
