@@ -1,0 +1,29 @@
+.news {
+  &__list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+
+    padding: 0;
+
+    @media @viewport-tablet {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__item {
+    padding: 15px 15px;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      border: 1px solid @color-gray
+    }
+
+    @media @viewport-tablet {
+      max-width: 45%;
+    }
+  }
+}
