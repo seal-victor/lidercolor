@@ -3,12 +3,28 @@
     display: flex;
     flex-direction: column;
 
-    justify-content: flex-end;
-    flex-grow: 0;
-    align-items: flex-end;
+    margin: auto;
+
+    justify-content: center;
 
     @media @viewport-tablet {
-      width: 50%;
+      justify-content: center;
+      align-items: center;
     }
+
+    @media @viewport-desktop {
+      justify-content: flex-start;
+      width: 400px;
+      flex-grow: 0;
+      align-items: flex-start;
+    }
+  }
+
+  &__copyright {
+
+  }
+
+  &__contact {
+
   }
 }

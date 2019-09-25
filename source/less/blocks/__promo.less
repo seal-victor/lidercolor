@@ -1,5 +1,35 @@
 .promo {
   &__container {
     display: flex;
+    flex-direction: column;
+
+    padding: 0 15px;
+  }
+
+  &__catalog-title {
+    font-weight: bold;
+
+    padding-left: 20px;
+
+    cursor: pointer;
+
+    color: @color-white;
+    border-bottom: 1px solid @color-white;
+    background-color: lighten(@base-color, 30%);
+  }
+
+  &__catalog-description {
+    margin: 0;
+    padding-left: 40px;
+
+    @media @viewport-desktop {
+      display: none;
+    }
+  }
+
+  &__catalog-title:hover+&__catalog-description {
+    display: block;
+
+    box-shadow: 1px 1px 1px 1px #0000;
   }
 }
