@@ -15,6 +15,7 @@ Redesign and make adaptive template for website lidercolor.ru
   <li>Gulp global version 2.2.0</li>
   <li>Gulp local version 4.0.2</li>  
   <li>Less v.530</li>
+  <li>Normalize.css v8.0.1</li>
 </ol>
 
 <h2>Plugins for Sublime Text for comfortable work:</h2>
@@ -31,7 +32,5 @@ Redesign and make adaptive template for website lidercolor.ru
   <li>Emmet</li>
   <li>LiveReload</li>
 </ol>
-
-<b>Plugins for the proper operation of Sublime Text 3:</b>
 
 <h2>Getting start:</h2>
