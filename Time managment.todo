@@ -3,28 +3,41 @@ Main goals:
   ☐ Complete index.html page
 
   Mark up:
-    ✔ Block "catalog" from index.html @due(2019 September 26 00:00) @done (19-09-25 09:20)
-    ✔ Block "promo" from index.html @due(2019 September 26 00:00) @done (19-09-25 09:20)
-    ✔ Block "footer" from all pages @due(2019 September 26 00:00) @done (19-09-25 09:20)
-    ✔ Block "header" form all pages @due(2019 September 26 00:00) @done (19-09-25 09:20)
+    ✔ Block "catalog" from index.html @done (19-09-25 09:20)
+    ✔ Block "promo" from index.html @done (19-09-25 09:20)
+    ✔ Block "footer" from all pages @done (19-09-25 09:20)
+    ☐ Block "header" form all pages
 
-   Stylize:
+   Base stylize (Layout, fonts, sizes):
     ☐ Block "catalog" from index.html @due(2019 September 28 00:00)
-    ☐ Block "promo" from index.html @due(2019 September 28 00:00)
-    ☐ Block "footer" from all pages @due(2019 September 28 00:00)
+    ✔ Block "promo" from index.html @due(2019 September 28 00:00) @done (19-09-25 23:45)
+    ✔ Block "footer" from all pages @due(2019 September 28 00:00) @done (19-09-25 23:45)
     ☐ Block "header" form all pages @due(2019 September 28 00:00)
+
+Task for today (Thursday September 26, 2019):
+  Lidercolor project:
+    ☐ Make a grid for the slider, catalog block from index.html page @due(2019 September 27 00:00)
+    ☐
+
+  HTMLAcademy interactive course:
+    ☐ Complete the chapter "Flexbox, part2" of the "Grid Builing" course @due(2019 September 27 00:00)
+    ☐ Complete the chapter "Cycles" of the "JavaScript basics" course @due(2019 September 27 00:00)
+
+  Training:
+    ☐ Legs training @due(2019 September 26 20:00)
+
 
 Tasks for today (Wednesday September 25, 2019):
   Lidercolor project:
-     ☐ Mark up a page with an article @due(2019 September 26 00:00)
-     ☐ Pass markup to Alexandr @due(201h9 September 26 00:00)
+     ✔ Mark up a page with an article @due(2019 September 26 00:00) @done (19-09-25 23:55)
+     ✔ Pass markup to Alexandr @due(201h9 September 26 00:00) @done (19-09-25 23:54)
      ✔ Sorted attributes in LESS files @done (19-09-25 22:14)
 
   Trainings:
      ✔ Back training @due(2019 September 26 20:00) @done (19-09-25 20:00)
 
   Read:
-     ☐ Read 2 hours boook
+     ✘ Read 2 hours boook @cancelled (19-09-25 23:55)
 
 Tasks for today (Tuesday September 24, 2019):
    Lidercolor project:
