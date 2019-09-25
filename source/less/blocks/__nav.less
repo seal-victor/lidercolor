@@ -1,5 +1,28 @@
 .nav {
-  .nav__container {
+  &__list {
     display: flex;
+    flex-direction: row;
+    flex: center;
+    justify-content: center;
+    list-style: none;
+    padding-left: 0;
+
+    flex-wrap: nowrap;
+    background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f4f4f4, #efefef, #eaeaea);
+  }
+
+  &__item {
+    min-width: 100px;
+  }
+
+  &__link {
+    padding: 60px 30px;
+    color: @color-black;
+    text-decoration: none;
+
+    &:focus,
+    &:hover {
+      color: #a92920;
+    }
   }
 }

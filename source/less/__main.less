@@ -11,10 +11,14 @@ body {
 
 .container {
   width: 650px;
-  margin: auto;
+
+  &:not(.footer__container) {
+    margin: auto;
+  }
 
   @media @viewport-tablet {
-    width: 580px;
+      width: 580px;
+      background-color: @color-white;
   }
 
   @media @viewport-desktop {
@@ -36,5 +40,4 @@ body {
   height: 1px;
   margin: -1px;
 }
-
 
