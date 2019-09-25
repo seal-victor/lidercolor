@@ -2,13 +2,16 @@
   &__list {
     display: flex;
     flex-direction: row;
-    flex: center;
-    justify-content: center;
-    list-style: none;
+
     padding-left: 0;
 
+    list-style: none;
+
+    background-image: linear-gradient(to bottom, #fff, #fafafa, #f4f4f4, #efefef, #eaeaea);
+
+    flex: center;
+    justify-content: center;
     flex-wrap: nowrap;
-    background-image: linear-gradient(to bottom, #ffffff, #fafafa, #f4f4f4, #efefef, #eaeaea);
   }
 
   &__item {
@@ -17,8 +20,10 @@
 
   &__link {
     padding: 60px 30px;
-    color: @color-black;
+
     text-decoration: none;
+
+    color: @color-black;
 
     &:focus,
     &:hover {
