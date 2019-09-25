@@ -9,6 +9,8 @@
   &__catalog-title {
     font-weight: bold;
 
+
+    padding: 10px;
     padding-left: 20px;
 
     cursor: pointer;
@@ -16,20 +18,32 @@
     color: @color-white;
     border-bottom: 1px solid @color-white;
     background-color: lighten(@base-color, 30%);
+
+    transition: padding-left 1s;
+  }
+
+  &__catalog-title:hover {
+    padding-left: 30px;
   }
 
   &__catalog-description {
     margin: 0;
-    padding-left: 40px;
+    padding-left: 0px;
+
 
     @media @viewport-desktop {
-      display: none;
+      max-height: 0;
+      overflow: hidden;
+
     }
   }
 
-  &__catalog-title:hover+&__catalog-description {
+  &__catalog-title:hover + &__catalog-description, &__catalog-description:hover {
     display: block;
+    max-height: 100%;
+    padding-left: 40px;
 
-    box-shadow: 1px 1px 1px 1px #0000;
+    transition: max-height 4s;
+    transition: padding-left 1s;
   }
 }
