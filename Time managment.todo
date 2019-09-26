@@ -5,12 +5,14 @@ Main goals:
   Mark up:
     ✔ Block "catalog" from index.html @done (19-09-25 09:20)
     ✔ Block "promo" from index.html @done (19-09-25 09:20)
+    ✔ Block "news" from index.html @done (19-09-26 00:33)
     ✔ Block "footer" from all pages @done (19-09-25 09:20)
     ☐ Block "header" form all pages
 
    Base stylize (Layout, fonts, sizes):
     ☐ Block "catalog" from index.html @due(2019 September 28 00:00)
     ✔ Block "promo" from index.html @due(2019 September 28 00:00) @done (19-09-25 23:45)
+    ☐ Block news
     ✔ Block "footer" from all pages @due(2019 September 28 00:00) @done (19-09-25 23:45)
     ☐ Block "header" form all pages @due(2019 September 28 00:00)
 
