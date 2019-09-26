@@ -6,42 +6,103 @@
     padding: 0 15px;
   }
 
+  &__catalog-item:hover {
+    position: relative;
+
+    overflow: hidden;
+
+    margin-bottom: 20px;
+
+    &::after {
+      position: absolute;
+      top: 40px;
+      left: 20px;
+
+      width: 1px;
+      height: 100%;
+
+      content: '';
+      animation-name: fly-top;
+      animation-duration: 2s;
+      animation-delay: 0s;
+
+      opacity: 0;
+      border-left: 1px solid darken(@base-color, 3%);
+
+      animation-fill-mode: forwards;
+    }
+
+    &::before {
+      position: absolute;
+      bottom: 0;
+      left: 20px;
+
+      width: 95%;
+      height: 1px;
+
+      content: '';
+      animation-name: fly-right;
+      animation-duration: 1s;
+      animation-delay: 0.5s;
+
+      opacity: 0;
+      border-bottom: 1px solid darken(@base-color, 3%);
+
+      animation-fill-mode: forwards;
+    }
+  }
+
   &__catalog-title {
     font-weight: bold;
-
 
     padding: 10px;
     padding-left: 20px;
 
     cursor: pointer;
+    transition: padding-left 1s;
 
     color: @color-white;
     border-bottom: 1px solid @color-white;
     background-color: lighten(@base-color, 30%);
-
-    transition: padding-left 1s;
   }
 
-  &__catalog-title:hover {
-    padding-left: 30px;
+  &__catalog-item:hover &__catalog-title {
+    padding-left: 40px;
+
+    background-color: darken(@base-color, 3%);
   }
 
-  &__catalog-description {
-    margin: 0;
-    padding-left: 0px;
+  &__catalog-link {
+    color: @color-white;
 
-
-    @media @viewport-desktop {
-      max-height: 0;
-      overflow: hidden;
-
+    &:active {
+      color: @color-gray;
     }
   }
 
-  &__catalog-title:hover + &__catalog-description, &__catalog-description:hover {
+  &__catalog-description {
+    position: relative;
+
+    overflow: hidden;
+
+    margin: 0;
+    padding-left: 0;
+
+    @media @viewport-desktop {
+      overflow: hidden;
+
+      max-height: 0;
+
+      transition: max-height 4s;
+      transition: padding-left 1s;
+    }
+  }
+
+  &__catalog-item:hover>&__catalog-description {
     display: block;
+
     max-height: 100%;
-    padding-left: 40px;
+    padding: 0 60px;
 
     transition: max-height 4s;
     transition: padding-left 1s;
