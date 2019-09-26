@@ -7,29 +7,32 @@ Main goals:
     ✔ Block "promo" from index.html @done (19-09-25 09:20)
     ✔ Block "news" from index.html @done (19-09-26 00:33)
     ✔ Block "footer" from all pages @done (19-09-25 09:20)
-    ☐  Block "header" form all pages
+    ✔  Block "header" form all pages @done (19-09-27 01:11)
 
    Base stylize (Layout, fonts, sizes):
-    ☐ Block "catalog" from index.html @due(2019 September 28 00:00)
     ✔ Block "promo" from index.html @due(2019 September 28 00:00) @done (19-09-25 23:45)
-    ☐ Block news
     ✔ Block "footer" from all pages @due(2019 September 28 00:00) @done (19-09-25 23:45)
+    ✔ Animation accordion menu @done(19-09-26 22:11)
+    ✔ Maoke text and headings responsive @done (19-09-27 01:12)
     ☐ Block "header" form all pages @due(2019 September 28 00:00)
-    ✔  Amimation accordion menu @done(19-09-26 22:11)
+    ☐ Block "catalog" from index.html @due(2019 September 28 00:00)
+    ☐ Block news
 
 Task for today (Thursday September 26, 2019):
   Lidercolor project:
-    ☐ Make a grid for the slider, catalog block from index.html page @due(2019 September 27 00:00)
+    ✘ Make a grid for the slider, catalog block from index.html page @due(2019 September 27 00:00) @cancelled (19-09-27 01:10)
     ✔ Make animation for accordion menu from promo section @done (19-09-26 22:34)
-    ☐ Make navigation for all site pages
+    ✘ Make navigation for all site pages @cancelled (19-09-27 01:10)
 
   HTMLAcademy interactive course:
-    ☐ Complete the chapter "Flexbox, part2" of the "Grid Builing" course @due(2019 September 27 00:00)
-    ☐ Complete the chapter "Cycles" of the "JavaScript basics" course @due(2019 September 27 00:00)
+    ✘ Complete the chapter "Flexbox, part2" of the "Grid Builing" course @due(2019 September 27 00:00) @cancelled (19-09-27 01:10)
+    ✘ Complete the chapter "Cycles" of the "JavaScript basics" course @due(2019 September 27 00:00) @cancelled (19-09-27 01:10)
 
   Training:
     ✔ Legs training @due(2019 September 26 20:00) @done (19-09-26 20:0)
 
+Orher:
+    ✔ Read 2 hours @done (19-09-27 01:11)
 
 Tasks for today (Wednesday September 25, 2019):
   Lidercolor project:
