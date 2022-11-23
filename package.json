@@ -2,7 +2,7 @@
   "name": "lidercolor",
   "devDependencies": {
     "autoprefixer": "9.5.x",
-    "browser-sync": "2.26.x",
+    "browser-sync": "2.27.x",
     "gulp": "4.0.x",
     "gulp-less": "4.0.x",
     "gulp-plumber": "1.2.x",
